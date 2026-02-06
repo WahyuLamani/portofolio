@@ -5,9 +5,9 @@ export default function Navigation () {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-zinc-700 to-zinc-900 flex items-center justify-center clip-hexagon">
-                <span className="text-sm font-bold">WL</span>
+                <span className="text-sm font-bold">W</span>
               </div>
-              <span className="text-2xl font-bold tracking-tight">Portfolio</span>
+              <span className="text-lg font-bold tracking-tight">Wahyu Lamani</span>
             </div>
 
             <div className="hidden md:flex items-center gap-8">

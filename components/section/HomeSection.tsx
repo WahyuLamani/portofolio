@@ -1,5 +1,5 @@
 import { sosialMedia } from "@/lib/data";
-import { ArrowRight, Code2, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Code2 } from "lucide-react";
 
 export default function HomeSection() {
     return(
@@ -7,9 +7,9 @@ export default function HomeSection() {
             <div className="max-w-7xl mx-auto w-full">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
                 {/* Left Content */}
-                <div className="space-y-8 relative z-10">
+                <div className="space-y-4 relative z-10">
                 <div className="inline-block px-4 py-2 bg-zinc-900 border border-zinc-800 clip-corner">
-                    <span className="text-sm text-zinc-400">● Available for freelance</span>
+                    <span className="text-sm text-zinc-400"><span className="text-cyan-600"> ● </span> Available for freelance</span>
                 </div>
 
                 <div className="space-y-4">
@@ -24,7 +24,8 @@ export default function HomeSection() {
                 </div>
 
                 <p className="text-lg text-zinc-400 max-w-lg leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore totam possimus repudiandae nemo illo adipisci saepe iusto reiciendis eum repellat voluptatum ut perferendis laboriosam aspernatur, fuga amet illum, sint reprehenderit odit laborum sit molestias ipsum? Nihil quidem id excepturi nulla?
+                Hallo, I&lsquo;m Wahyu, as a junior full-stack developer, I enjoy making straightforward, practical, and user-focused web apps.<br/>
+                I always learn new things and improve my skills while using modern technology to turn ideas into reliable digital solutions.
                 </p>
 
                 <div className="flex flex-wrap gap-4">
@@ -32,9 +33,9 @@ export default function HomeSection() {
                     View Projects
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </button>
-                    <button className="px-8 py-4 border border-zinc-700 font-medium clip-corner hover:bg-zinc-900 transition-all">
-                    Download CV
-                    </button>
+                    <a href="#contact" className="px-8 py-4 border border-zinc-700 font-medium clip-corner hover:bg-zinc-900 transition-all">
+                    Let&lsquo;s Disquss !
+                    </a>
                 </div>
 
                 {/* Social Links */}

@@ -19,9 +19,8 @@ export const sosialMedia: {
     icon: LucideIcon;
     href: string;
 }[] = [
-    { icon: Github , href: '#' },
-    { icon: Linkedin, href: '#' },
-    { icon: Mail, href: '#' },
-    { icon: Facebook, href: '#' },
-    { icon: Instagram, href: '#' },
+    { icon: Github , href: 'https://github.com/WahyuLamani/' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/wahyulamani/' },
+    { icon: Mail, href: 'mailto:wahyulamani03@gmail.com' },
+    { icon: Instagram, href: 'https://www.instagram.com/revelacio.w/' },
     ]
