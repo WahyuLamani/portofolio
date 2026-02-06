@@ -1,5 +1,6 @@
 import { sosialMedia } from "@/lib/data";
 import { ArrowRight, Code2 } from "lucide-react";
+import MailTooltip from "../tooltip/MailTooltip";
 
 export default function HomeSection() {
     return(
@@ -40,15 +41,23 @@ export default function HomeSection() {
 
                 {/* Social Links */}
                 <div className="flex gap-4 pt-4">
-                    {sosialMedia.map(({icon: Icon, href}, i) => (
-                    <a 
-                        key={i}
-                        href={href}
-                        className="w-12 h-12 border border-zinc-800 flex items-center justify-center hover:bg-zinc-900 hover:border-zinc-700 transition-all clip-corner"
-                    >
-                        <Icon className="w-5 h-5" />
-                    </a>
-                    ))}
+                    {sosialMedia.map(({icon: Icon, href}, i) => 
+                    {
+                        const isEmail: boolean = href.includes('mailto');
+                        const mail: string = isEmail ? href.split(':')[1] : '';
+                        const link = (
+                            <a 
+                                key={i}
+                                href={href}
+                                className="w-12 h-12 border border-zinc-800 flex items-center justify-center hover:bg-zinc-900 hover:border-zinc-700 transition-all clip-corner"
+                            >
+                                <Icon className="w-5 h-5" />
+                            </a>
+                            ) 
+                        return isEmail ? 
+                        <MailTooltip key={i}content={mail}>{link}</MailTooltip>
+                        : link;
+                    })}
                 </div>
                 </div>
 
