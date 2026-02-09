@@ -16,7 +16,7 @@ export const projects: Project[] = [
     href: "https://app-pramitamanado.vercel.app/",
     description:
       "This app is for helping companies with their daily work at Pramita Manado Clinical Laboratory.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS","Prisma", "Supabase", "PostgreSQL"],
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "Cerdas Cermat Game Interface",
-    category: "UI Kit",
+    category: "UI Interface Tool",
     year: "2024",
     href: "https://cerdas-cermat-pramita.vercel.app/",
     description:
@@ -46,17 +46,58 @@ export const projects: Project[] = [
     href: "https://hppsystem-by-lumi-and-bloom.vercel.app/",
     description:
       "This app is for calculating HPP (Harga Pokok Penjualan) in a web-based system.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS","Prisma", "Supabase", "PostgreSQL"],
   },
   {
     id: 5,
-    title: "HPP system Calculating",
-    category: "Web Design",
+    title: "Travedilo",
+    category: "Web App",
     year: "2024",
-    href: "https://hppsystem-by-lumi-and-bloom.vercel.app/",
+    href: "https://github.com/WahyuLamani/task-traveloka-clone/",
     description:
-      "This app is for calculating HPP (Harga Pokok Penjualan) in a web-based system.",
+      "An application similar to Traveloka which is usually used for renting accommodation with the advantage that rentals can be done on an hourly basis, where the user is the accommodation owner, tenant, and administrator, each of whom has their own duties and responsibilities.",
+    tags: ["Laravel","Blade","Bootstrap 5","Jquery","Pusher","Realtime Notification","Vite","Mobile App"]
   },
+  {
+    id: 6,
+    title: "Least Square Regression",
+    category: "Web App",
+    year: "2024",
+    href: "https://github.com/WahyuLamani/daily-sales/",
+    description:
+      "Sales simulation application for goods in various categories equipped with least square regression calculations",
+    tags: ["Laravel","Blade","Bootstrap 5","Jquery","Regression","Vite"]
+  },
+  {
+    id: 7,
+    title: "Crew Certification",
+    category: "Web App",
+    year: "2024",
+    href: "https://github.com/WahyuLamani/task-certification/",
+    description:
+      "website for registration of ship crew with certain criteria and requirements",
+    tags: ["Laravel","Blade","Bootstrap 5", "Vite"]
+    },
+  {
+    id: 8,
+    title: "Shopptify",
+    category: "Web App",
+    year: "2024",
+    href: "https://github.com/WahyuLamani/task-onlineshop/",
+    description:
+      "simple online shop application built with vanilla php",
+    tags: ["php","Mysql","Javascript"]
+    },
+  {
+    id: 8,
+    title: "Goods Distribution Management System",
+    category: "Web App",
+    year: "2021",
+    href: "https://github.com/WahyuLamani/TA-server/",
+    description:
+      "This application is my first step in this portfolio. It was built to complete my Diploma 4 studies. It's used for distribution, real-time item tracking, delivery handling, and product monitoring.",
+    tags: ["Laravel","Blade","Bootstrap 4","Jquery","Rest API"]
+    },
 ];
 
 export const skills: Skill[] = [
