@@ -13,7 +13,7 @@ export default function ContactSection() {
       <div className="max-w-4xl mx-auto text-center space-y-12">
         <div className="space-y-6">
           <h2 className="text-5xl md:text-7xl font-bold leading-tight">
-            Let's Create
+            Let&lsquo;s Create
             <br />
             <span className="gradient-text">Something Great</span>
           </h2>

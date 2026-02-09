@@ -70,7 +70,7 @@ export default function AboutSection() {
                 href="#contact"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white text-zinc-950 font-medium clip-corner hover:bg-zinc-200 transition-all group"
               >
-                Let's Work Together
+                Let&lsquo;s Work Together
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
