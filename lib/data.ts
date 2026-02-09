@@ -123,10 +123,12 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skill[] = [
-  { name: "React & Next.js", level: 95 },
-  { name: "TypeScript", level: 90 },
-  { name: "UI/UX Design", level: 85 },
-  { name: "Node.js", level: 80 },
+  { name: "Laravel", level: 95 },
+  { name: "React & Next.js", level: 80 },
+  { name: "TypeScript", level: 70 },
+  { name: "UI/UX Design", level: 80 },
+  { name: "Tailwind CSS", level: 70 },
+  { name: "Node.js", level: 70 },
 ];
 
 export const sosialMedia: {
