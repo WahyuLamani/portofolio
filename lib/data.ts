@@ -1,10 +1,12 @@
 import {
+  Calendar,
   Facebook,
   Github,
   Instagram,
   Linkedin,
   LucideIcon,
   Mail,
+  MessageSquare,
 } from "lucide-react";
 
 export const projects: Project[] = [
@@ -160,4 +162,41 @@ export const Spesialists: string[] = [
   "Supabase",
   "PostgreSQL",
   "MySql",
+];
+
+export const contactMethods: {
+  icon: LucideIcon;
+  label: string;
+  description: string;
+  href: string;
+  primary: boolean;
+}[] = [
+  {
+    icon: Calendar,
+    label: "Schedule a Call",
+    description: "Book a 30-min consultation",
+    href: "https://cal.com/wahyu-lamani", // Cal.com
+    primary: true,
+  },
+  {
+    icon: Mail,
+    label: "Send Email",
+    description: "wahyulamani03.com",
+    href: "mailto:wahyulamani03.com",
+    primary: false,
+  },
+  {
+    icon: MessageSquare,
+    label: "Telegram",
+    description: "@revelaciow",
+    href: "https://t.me/revelaciow",
+    primary: false,
+  },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    description: "Connect professionally",
+    href: "https://www.linkedin.com/in/wahyulamani/",
+    primary: false,
+  },
 ];
