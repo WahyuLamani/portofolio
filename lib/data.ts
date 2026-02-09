@@ -135,12 +135,21 @@ export const skills: Skill[] = [
 
 export const sosialMedia: {
   icon: LucideIcon;
+  label: string;
   href: string;
 }[] = [
-  { icon: Github, href: "https://github.com/WahyuLamani/" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/wahyulamani/" },
-  { icon: Mail, href: "mailto:wahyulamani03@gmail.com" },
-  { icon: Instagram, href: "https://www.instagram.com/revelacio.w/" },
+  { icon: Github, label: "Github", href: "https://github.com/WahyuLamani/" },
+  {
+    icon: Linkedin,
+    label: "",
+    href: "https://www.linkedin.com/in/wahyulamani/",
+  },
+  { icon: Mail, label: "Linkedin", href: "mailto:wahyulamani03@gmail.com" },
+  {
+    icon: Instagram,
+    label: "Instagram",
+    href: "https://www.instagram.com/revelacio.w/",
+  },
 ];
 
 export const workValues: {
