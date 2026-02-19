@@ -1,60 +1,86 @@
-# 🚀 Starter Project
+# 🌐 Wahyu Lamani – Portfolio Website
 
-Starter Project ini dibuat untuk mempercepat pembuatan project baru tanpa harus memulai dari nol.
+Welcome to the official repository of my personal portfolio website:
+👉 **Live Site:** https://wahyulamani.netlify.app/
 
-## 📌 Cara Menggunakan Starter Project
+This website showcases my projects, technical skills, and experience as a Fullstack Developer. It serves as a digital space where I present the work I’ve built and the technologies I use.
 
-Ikuti langkah-langkah berikut untuk **meng-clone starter project ini dan menjadikannya sebagai repository baru**, sehingga starter project ini tetap aman dan tidak berubah.
+---
 
-## 1️⃣ Clone Repository Starter
-```
-git clone https://github.com/WahyuLamani/startertemplate-next14react18.git
-cd startertemplate-next14react18
-```
-## 2️⃣ Ganti Nama Folder Project
-Karena folder hasil clone masih bernama `startertemplate-next14react18`, silakan ganti terlebih dahulu sesuai nama project kamu.
-```
-cd ..
-mv startertemplate-next14react18 project-baru
-cd project-baru
-```
+## 🚀 About This Website
 
-## 3️⃣ Putuskan Koneksi dengan Repository Starter
-⚠️ sebelumnya hapus
-Hapus histori Git agar project ini tidak lagi terhubung dengan repository starter.
-```
-rm -rf .git
-```
-⚠️ Perintah ini tidak menghapus file project, hanya menghapus histori Git.
+This portfolio was created to highlight my journey as a developer and demonstrate my ability to build modern, scalable, and user-friendly web applications.
 
+It reflects my passion for crafting digital experiences with precision and creativity.
 
-## 4️⃣ Inisialisasi Repository Git Baru
-```
-git init
-```
+---
 
-## 5️⃣ Commit Awal Project
-```
-git add .
-git commit -m "Initial commit from starter project"
+## ✨ Features
 
-```
+* 👨‍💻 Professional introduction and background
+* 📂 Project showcase with live demos
+* 🛠️ Technology stack overview
+* 📱 Fully responsive modern design
+* 📬 Contact section for collaboration opportunities
 
-## 6️⃣ Buat Repository Baru di GitHub
-Buat repository baru di akun GitHub kamu, misalnya:
-```
-https://github.com/USERNAME/project-baru
-```
+---
 
-## 7️⃣ Hubungkan ke Repository Baru
-```
-git remote add origin https://github.com/USERNAME/project-baru.git
-```
+## 🏆 Featured Projects
 
-## 8️⃣ Push ke GitHub
-```
-git branch -M main
-git push -u origin main
-```
+Some of the projects highlighted on the website include:
 
-✅ Selesai
+* **Pramita Helper** – Fullstack web application
+  *Next.js, TypeScript, Tailwind CSS, Supabase, PostgreSQL*
+
+* **Movie From OMDb** – API-based movie explorer
+  *Next.js, TypeScript, Tailwind CSS*
+
+* **Cerdas Cermat Game** – Interactive quiz interface
+  *Next.js, TypeScript, Tailwind CSS*
+
+* **HPP System** – Business calculation web app
+  *Next.js, TypeScript, Tailwind CSS, Supabase*
+
+* **Travedilo** – Travel booking platform
+  *Laravel, Blade, Bootstrap, jQuery, Pusher*
+
+Explore all projects directly on the live website.
+
+---
+
+## 🛠️ Tech Stack
+
+This portfolio website was built using modern web technologies:
+
+* **Frontend:** Next.js, TypeScript, Tailwind CSS
+* **Backend / Fullstack Tools:** Supabase, Prisma, PostgreSQL
+* **Deployment:** Netlify
+* **Language:** JavaScript / TypeScript
+
+---
+
+## 👨‍💼 About Me
+
+I am a passionate Fullstack Developer who enjoys building functional, clean, and impactful digital products.
+
+I continuously learn and adapt to modern technologies to deliver high-quality solutions. My focus is on writing maintainable code, creating intuitive user interfaces, and solving real-world problems through technology.
+
+---
+
+## 📫 Contact
+
+Feel free to reach out if you'd like to collaborate or discuss a project:
+
+* 📧 Email: wahyulamani03.com
+* 💼 LinkedIn: https://www.linkedin.com/in/wahyulamani
+* ✈️ Telegram: @revelaciow
+
+---
+
+## 📄 License
+
+© 2026 Wahyu Lamani. All rights reserved.
+
+---
+
+⭐ If you like this portfolio, feel free to give this repository a star!
