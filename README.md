@@ -71,7 +71,6 @@ I continuously learn and adapt to modern technologies to deliver high-quality so
 
 Feel free to reach out if you'd like to collaborate or discuss a project:
 
-* 📧 Email: wahyulamani03.com
 * 💼 LinkedIn: https://www.linkedin.com/in/wahyulamani
 * ✈️ Telegram: @revelaciow
 
